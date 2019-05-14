@@ -6,7 +6,6 @@ pipeline {
 
     stage('Deploy to Artifactory') {
       agent  {
-        node {
         }
       }
       steps {
@@ -16,7 +15,6 @@ pipeline {
 
     stage('Deploy to Dev') {
       agent {
-        node {
         }
       }
       steps {
