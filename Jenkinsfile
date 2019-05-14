@@ -22,5 +22,4 @@ pipeline {
         sh 'ssh -p 2225 admin@192.168.0.20 < script.sh'
       }
     }
-  }
 }
